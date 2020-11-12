@@ -1,0 +1,43 @@
+.recipeBox{
+    margin: 1px;
+}
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    
+    border: 5px solid white;
+    margin: 10px;
+    padding: 5px;
+    transition: 0.3s;
+   
+}
+.box:hover{
+    opacity: 0.5;
+}
+
+.img{
+
+    height: 300px;
+    width: 300px;
+    border: 8px solid white;
+ 
+}
+.categ{
+    border-style: dashed;
+    border-color:rgba(0, 247, 255, 0.623);
+    text-align: center;
+    color: white;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ing{
+    color: white;
+    background-color: grey;
+    width: 200px;
+    margin: auto;
+    border-radius: 40%;
+    display: inline-block;
+}
